@@ -1,0 +1,24 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightseagreen; 
+    overflow-x: hidden;
+    padding-top: 50px;
+  }
+  
+  .sidenav .menu-link {
+    padding: 6px 8px 6px 26px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f7f7f7;
+    display: block;
+  }
+  
+  .sidenav .menu-link:hover {
+    background-color: rgb(6, 114, 109);
+  }
