@@ -10,7 +10,7 @@ const Rows = (props) => {
 
     const handlePrescription = (e) => {
         console.log(prescription)
-        fetch('http://localhost:5000/updatePrescription', {
+        fetch('https://vast-headland-19751.herokuapp.com/updatePrescription', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'

@@ -10,7 +10,7 @@ const AppointmentList = () => {
 
     useEffect(()=>{
         setIsLoading(true)
-        fetch('http://localhost:5000/dailyAppointment/' + date.toDateString())
+        fetch('https://vast-headland-19751.herokuapp.com/dailyAppointment/' + date.toDateString())
         .then(res => res.json())
         .then(data => {
             if(data.message){

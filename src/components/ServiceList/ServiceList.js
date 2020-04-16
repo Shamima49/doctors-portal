@@ -10,7 +10,7 @@ const ServiceList = (props) => {
     const [isLoading, setIsLoading] = useState(true);
     
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://vast-headland-19751.herokuapp.com/services')
         .then(res => res.json())
         .then(data => {
             setIsLoading(false)
@@ -33,7 +33,7 @@ const ServiceList = (props) => {
     
 
     // const updateServices = () => {
-    //     fetch('http://localhost:5000/addServices',{
+    //     fetch('https://vast-headland-19751.herokuapp.com/addServices',{
     //         method: 'POST',
     //         headers: {
     //           'Content-Type': 'application/json'

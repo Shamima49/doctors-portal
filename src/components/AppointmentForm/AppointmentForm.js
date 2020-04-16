@@ -34,7 +34,7 @@ const AppointmentForm = (props) => {
             action: 'pending'
         }
         // console.log(appointmentDetails)
-        fetch('http://localhost:5000/bookAppointment', {
+        fetch('https://vast-headland-19751.herokuapp.com/bookAppointment', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
